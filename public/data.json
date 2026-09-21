@@ -69,77 +69,119 @@
       "avatarColor": "#7c3aed",
       "lastSeen": "2026-09-15T10:00:00.000Z",
       "isOnline": false
+    },
+    {
+      "id": 11,
+      "username": "EmmanuelSeujip",
+      "avatarColor": "gray",
+      "lastSeen": null,
+      "isOnline": true
     }
   ],
   "messages": [
     {
       "id": 1,
-      "content": "Salut ! On se voit toujours à 15h demain ?",
-      "sentAt": "2026-09-21T14:58:00.000Z",
-      "type": "TEXT",
+      "content": "Bonjour à tous, on lance la discussion du projet !",
+      "sentAt": "2026-09-21T09:00:00.000Z",
+      "type": "CHAT",
       "user": { "username": "Alice Martin", "avatarColor": "#e11d48", "lastSeen": null, "isOnline": true }
     },
     {
       "id": 2,
-      "content": "Je t'envoie le fichier dans 5 min 👍",
-      "sentAt": "2026-09-21T14:32:00.000Z",
-      "type": "TEXT",
+      "content": "Salut ! Je suis dispo toute la journée.",
+      "sentAt": "2026-09-21T09:05:00.000Z",
+      "type": "CHAT",
       "user": { "username": "Bruno Lefèvre", "avatarColor": "#2563eb", "lastSeen": "2026-09-21T14:32:00.000Z", "isOnline": true }
     },
     {
       "id": 3,
-      "content": "Haha excellent 😂",
-      "sentAt": "2026-09-21T13:05:00.000Z",
-      "type": "TEXT",
-      "user": { "username": "Chloé Nguyen", "avatarColor": "#16a34a", "lastSeen": "2026-09-21T13:05:00.000Z", "isOnline": true }
+      "content": "Parfait, on peut commencer par la maquette.",
+      "sentAt": "2026-09-21T09:12:00.000Z",
+      "type": "CHAT",
+      "user": { "username": "EmmanuelSeujip", "avatarColor": "gray", "lastSeen": null, "isOnline": true }
     },
     {
       "id": 4,
-      "content": "Tu peux me rappeler quand tu peux ?",
-      "sentAt": "2026-09-21T12:48:00.000Z",
-      "type": "TEXT",
-      "user": { "username": "David Okafor", "avatarColor": "#f59e0b", "lastSeen": "2026-09-21T12:48:00.000Z", "isOnline": true }
-    },
-    {
-      "id": 5,
-      "content": "Merci beaucoup pour ton aide, c'était top !",
-      "sentAt": "2026-09-21T11:20:00.000Z",
-      "type": "TEXT",
-      "user": { "username": "Emma Rossi", "avatarColor": "#9333ea", "lastSeen": "2026-09-21T11:20:00.000Z", "isOnline": false }
-    },
-    {
-      "id": 6,
-      "content": "Ok je regarde ça ce soir et je te dis",
-      "sentAt": "2026-09-21T09:15:00.000Z",
-      "type": "TEXT",
-      "user": { "username": "Farid Benali", "avatarColor": "#0891b2", "lastSeen": "2026-09-21T09:15:00.000Z", "isOnline": false }
-    },
-    {
-      "id": 7,
-      "content": "Bonne nuit, à demain 🌙",
-      "sentAt": "2026-09-20T22:47:00.000Z",
-      "type": "TEXT",
-      "user": { "username": "Gaëlle Dubois", "avatarColor": "#db2777", "lastSeen": "2026-09-20T22:47:00.000Z", "isOnline": false }
-    },
-    {
-      "id": 8,
-      "content": "Le rendez-vous est confirmé pour lundi prochain",
-      "sentAt": "2026-09-20T18:30:00.000Z",
-      "type": "TEXT",
-      "user": { "username": "Hugo Fernandez", "avatarColor": "#65a30d", "lastSeen": "2026-09-20T18:30:00.000Z", "isOnline": false }
-    },
-    {
-      "id": 9,
       "content": "Je pense qu'on devrait revoir la maquette ensemble",
-      "sentAt": "2026-09-19T15:12:00.000Z",
-      "type": "TEXT",
+      "sentAt": "2026-09-21T09:20:00.000Z",
+      "type": "CHAT",
       "user": { "username": "Inès Petit", "avatarColor": "#dc2626", "lastSeen": "2026-09-19T15:12:00.000Z", "isOnline": false }
     },
     {
+      "id": 5,
+      "content": "Ok je regarde ça ce soir et je te dis",
+      "sentAt": "2026-09-21T09:45:00.000Z",
+      "type": "CHAT",
+      "user": { "username": "Farid Benali", "avatarColor": "#0891b2", "lastSeen": "2026-09-21T09:15:00.000Z", "isOnline": false }
+    },
+    {
+      "id": 6,
+      "content": "J'ai poussé une première version sur le repo.",
+      "sentAt": "2026-09-21T10:30:00.000Z",
+      "type": "CHAT",
+      "user": { "username": "EmmanuelSeujip", "avatarColor": "gray", "lastSeen": null, "isOnline": true }
+    },
+    {
+      "id": 7,
+      "content": "Merci beaucoup pour ton aide, c'était top !",
+      "sentAt": "2026-09-21T11:20:00.000Z",
+      "type": "CHAT",
+      "user": { "username": "Emma Rossi", "avatarColor": "#9333ea", "lastSeen": "2026-09-21T11:20:00.000Z", "isOnline": false }
+    },
+    {
+      "id": 8,
+      "content": "Tu peux me rappeler quand tu peux ?",
+      "sentAt": "2026-09-21T12:48:00.000Z",
+      "type": "CHAT",
+      "user": { "username": "David Okafor", "avatarColor": "#f59e0b", "lastSeen": "2026-09-21T12:48:00.000Z", "isOnline": true }
+    },
+    {
+      "id": 9,
+      "content": "Haha excellent 😂",
+      "sentAt": "2026-09-21T13:05:00.000Z",
+      "type": "CHAT",
+      "user": { "username": "Chloé Nguyen", "avatarColor": "#16a34a", "lastSeen": "2026-09-21T13:05:00.000Z", "isOnline": true }
+    },
+    {
       "id": 10,
+      "content": "Je t'envoie le fichier dans 5 min 👍",
+      "sentAt": "2026-09-21T14:32:00.000Z",
+      "type": "CHAT",
+      "user": { "username": "Bruno Lefèvre", "avatarColor": "#2563eb", "lastSeen": "2026-09-21T14:32:00.000Z", "isOnline": true }
+    },
+    {
+      "id": 11,
+      "content": "Salut ! On se voit toujours à 15h demain ?",
+      "sentAt": "2026-09-21T14:58:00.000Z",
+      "type": "CHAT",
+      "user": { "username": "Alice Martin", "avatarColor": "#e11d48", "lastSeen": null, "isOnline": true }
+    },
+    {
+      "id": 12,
+      "content": "Oui, 15h me va parfaitement. À demain !",
+      "sentAt": "2026-09-21T15:02:00.000Z",
+      "type": "CHAT",
+      "user": { "username": "EmmanuelSeujip", "avatarColor": "gray", "lastSeen": null, "isOnline": true }
+    },
+    {
+      "id": 13,
+      "content": "Le rendez-vous est confirmé pour lundi prochain",
+      "sentAt": "2026-09-20T18:30:00.000Z",
+      "type": "CHAT",
+      "user": { "username": "Hugo Fernandez", "avatarColor": "#65a30d", "lastSeen": "2026-09-20T18:30:00.000Z", "isOnline": false }
+    },
+    {
+      "id": 14,
+      "content": "Bonne nuit, à demain 🌙",
+      "sentAt": "2026-09-20T22:47:00.000Z",
+      "type": "CHAT",
+      "user": { "username": "Gaëlle Dubois", "avatarColor": "#db2777", "lastSeen": "2026-09-20T22:47:00.000Z", "isOnline": false }
+    },
+    {
+      "id": 15,
       "content": "Désolé pour le retard, je t'explique tout par mail",
       "sentAt": "2026-09-15T10:00:00.000Z",
-      "type": "TEXT",
+      "type": "CHAT",
       "user": { "username": "Jules Moreau", "avatarColor": "#7c3aed", "lastSeen": "2026-09-15T10:00:00.000Z", "isOnline": false }
     }
   ]
