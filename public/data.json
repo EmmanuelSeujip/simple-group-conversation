@@ -1,0 +1,146 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Alice Martin",
+      "avatarColor": "#e11d48",
+      "lastSeen": null,
+      "isOnline": true
+    },
+    {
+      "id": 2,
+      "username": "Bruno Lefèvre",
+      "avatarColor": "#2563eb",
+      "lastSeen": "2026-09-21T14:32:00.000Z",
+      "isOnline": true
+    },
+    {
+      "id": 3,
+      "username": "Chloé Nguyen",
+      "avatarColor": "#16a34a",
+      "lastSeen": "2026-09-21T13:05:00.000Z",
+      "isOnline": true
+    },
+    {
+      "id": 4,
+      "username": "David Okafor",
+      "avatarColor": "#f59e0b",
+      "lastSeen": "2026-09-21T12:48:00.000Z",
+      "isOnline": true
+    },
+    {
+      "id": 5,
+      "username": "Emma Rossi",
+      "avatarColor": "#9333ea",
+      "lastSeen": "2026-09-21T11:20:00.000Z",
+      "isOnline": false
+    },
+    {
+      "id": 6,
+      "username": "Farid Benali",
+      "avatarColor": "#0891b2",
+      "lastSeen": "2026-09-21T09:15:00.000Z",
+      "isOnline": false
+    },
+    {
+      "id": 7,
+      "username": "Gaëlle Dubois",
+      "avatarColor": "#db2777",
+      "lastSeen": "2026-09-20T22:47:00.000Z",
+      "isOnline": false
+    },
+    {
+      "id": 8,
+      "username": "Hugo Fernandez",
+      "avatarColor": "#65a30d",
+      "lastSeen": "2026-09-20T18:30:00.000Z",
+      "isOnline": false
+    },
+    {
+      "id": 9,
+      "username": "Inès Petit",
+      "avatarColor": "#dc2626",
+      "lastSeen": "2026-09-19T15:12:00.000Z",
+      "isOnline": false
+    },
+    {
+      "id": 10,
+      "username": "Jules Moreau",
+      "avatarColor": "#7c3aed",
+      "lastSeen": "2026-09-15T10:00:00.000Z",
+      "isOnline": false
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "content": "Salut ! On se voit toujours à 15h demain ?",
+      "sentAt": "2026-09-21T14:58:00.000Z",
+      "type": "TEXT",
+      "user": { "username": "Alice Martin", "avatarColor": "#e11d48", "lastSeen": null, "isOnline": true }
+    },
+    {
+      "id": 2,
+      "content": "Je t'envoie le fichier dans 5 min 👍",
+      "sentAt": "2026-09-21T14:32:00.000Z",
+      "type": "TEXT",
+      "user": { "username": "Bruno Lefèvre", "avatarColor": "#2563eb", "lastSeen": "2026-09-21T14:32:00.000Z", "isOnline": true }
+    },
+    {
+      "id": 3,
+      "content": "Haha excellent 😂",
+      "sentAt": "2026-09-21T13:05:00.000Z",
+      "type": "TEXT",
+      "user": { "username": "Chloé Nguyen", "avatarColor": "#16a34a", "lastSeen": "2026-09-21T13:05:00.000Z", "isOnline": true }
+    },
+    {
+      "id": 4,
+      "content": "Tu peux me rappeler quand tu peux ?",
+      "sentAt": "2026-09-21T12:48:00.000Z",
+      "type": "TEXT",
+      "user": { "username": "David Okafor", "avatarColor": "#f59e0b", "lastSeen": "2026-09-21T12:48:00.000Z", "isOnline": true }
+    },
+    {
+      "id": 5,
+      "content": "Merci beaucoup pour ton aide, c'était top !",
+      "sentAt": "2026-09-21T11:20:00.000Z",
+      "type": "TEXT",
+      "user": { "username": "Emma Rossi", "avatarColor": "#9333ea", "lastSeen": "2026-09-21T11:20:00.000Z", "isOnline": false }
+    },
+    {
+      "id": 6,
+      "content": "Ok je regarde ça ce soir et je te dis",
+      "sentAt": "2026-09-21T09:15:00.000Z",
+      "type": "TEXT",
+      "user": { "username": "Farid Benali", "avatarColor": "#0891b2", "lastSeen": "2026-09-21T09:15:00.000Z", "isOnline": false }
+    },
+    {
+      "id": 7,
+      "content": "Bonne nuit, à demain 🌙",
+      "sentAt": "2026-09-20T22:47:00.000Z",
+      "type": "TEXT",
+      "user": { "username": "Gaëlle Dubois", "avatarColor": "#db2777", "lastSeen": "2026-09-20T22:47:00.000Z", "isOnline": false }
+    },
+    {
+      "id": 8,
+      "content": "Le rendez-vous est confirmé pour lundi prochain",
+      "sentAt": "2026-09-20T18:30:00.000Z",
+      "type": "TEXT",
+      "user": { "username": "Hugo Fernandez", "avatarColor": "#65a30d", "lastSeen": "2026-09-20T18:30:00.000Z", "isOnline": false }
+    },
+    {
+      "id": 9,
+      "content": "Je pense qu'on devrait revoir la maquette ensemble",
+      "sentAt": "2026-09-19T15:12:00.000Z",
+      "type": "TEXT",
+      "user": { "username": "Inès Petit", "avatarColor": "#dc2626", "lastSeen": "2026-09-19T15:12:00.000Z", "isOnline": false }
+    },
+    {
+      "id": 10,
+      "content": "Désolé pour le retard, je t'explique tout par mail",
+      "sentAt": "2026-09-15T10:00:00.000Z",
+      "type": "TEXT",
+      "user": { "username": "Jules Moreau", "avatarColor": "#7c3aed", "lastSeen": "2026-09-15T10:00:00.000Z", "isOnline": false }
+    }
+  ]
+}
