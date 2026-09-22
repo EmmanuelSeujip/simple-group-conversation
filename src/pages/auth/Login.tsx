@@ -75,6 +75,11 @@ const Login = () => {
                         </div>
 
                     </div>
+                    <button type="submit" className="bg-amber-500 text-white py-3  rounded-full font-bold
+                                                    hover:bg-amber-600 hover:-translate-y-1 cursor-pointer
+                                                    transition duration-300 ease-in-out">
+                        Se connectez
+                    </button>
                 </form>
                 <div className="mt-4"> Vous n'avez pas de compte alors
                     <a href="/sign" className="text-amber-500 underline ml-2">Inscrivez - vous</a>

@@ -8,6 +8,10 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
+  define: {
+    // sockjs-client utilise `global` (variable Node.js) → on le polyfille pour le navigateur
+    global: 'globalThis',
+  },
   server: {
     watch: {
       usePolling: true, // Nécessaire sous WSL, Linux dans certains VM, ou conteneurs Docker
