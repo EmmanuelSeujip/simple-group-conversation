@@ -50,11 +50,11 @@ const Header = () => {
                 >
                     <div
                         className="flex items-center justify-center w-7 h-7 sm:w-8 sm:h-8 rounded-full text-white text-sm"
-                        style={{backgroundColor: user.avatarColor}}
+                        style={{backgroundColor: user?.avatarColor}}
                     >
-                        {user.username?.[0] ?? ""}
+                        {user?.username?.[0] ?? ""}
                     </div>
-                    <span className="hidden md:inline text-sm max-w-28 truncate">{user.username}</span>
+                    <span className="hidden md:inline text-sm max-w-28 truncate">{user?.username}</span>
                     <FontAwesomeIcon icon={faChevronDown} className="text-xs hidden sm:inline"/>
                 </div>
                 {viewDisconnection && (
