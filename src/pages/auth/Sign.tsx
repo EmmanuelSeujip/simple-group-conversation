@@ -2,8 +2,12 @@ import AuthTemplate from "../../component/template/auth/AuthTemplate";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faEye, faEyeSlash, faLock, faUser} from "@fortawesome/free-solid-svg-icons";
 import React, {useState} from "react";
+import {userStore} from "../../store/UserStore.ts";
+import {useNavigate} from "react-router-dom";
 
 const Sign = () => {
+    const login=userStore((state)=>state.log)
+    const navigate = useNavigate();
     const [formData, setFormData] = useState({
         username: '',
         password: '',
@@ -16,13 +20,20 @@ const Sign = () => {
             [name]: value,
         }));
     };
+
+    const  submit = async (e: React.SubmitEvent<HTMLFormElement>) => {
+        e.preventDefault();
+        const reponse = await login({username: formData.username,password:formData.password,route:"signup"});
+        if (reponse) {
+            navigate("/");
+        }
+    }
     const [showPassword, setShowPassword] = useState(false)
     return (
         <AuthTemplate>
             <div className="flex flex-col items-center m-6 gap-2 w-full z-10">
-                <h2 className="text-2xl font-bold"> Connectez - vous </h2>
-                <p className="text-gray-500">Bon retour dans la conversation</p>
-                <form onSubmit={(e) => e.preventDefault()}
+                <h2 className="text-2xl font-bold"> Inscrivez - vous </h2>
+                <form onSubmit={(e) => submit(e)}
                       className="flex flex-col w-full gap-5 mt-10">
                     <div className="flex flex-col gap-3">
                         <div className="flex gap-2 items-center
@@ -85,7 +96,15 @@ const Sign = () => {
                                              onClick={() => setShowPassword(!showPassword)}/>
                         </div>
                     </div>
+                    <button type="submit" className="bg-amber-500 text-white py-3  rounded-full font-bold
+                                                    hover:bg-amber-600 hover:-translate-y-1 cursor-pointer
+                                                    transition duration-300 ease-in-out">
+                        S'inscrire
+                    </button>
                 </form>
+                <div className="mt-4"> Vous avez déjà un compte alors
+                    <a href="/login" className="text-amber-500 underline ml-2">Connectez- vous</a>
+                </div>
             </div>
 
         </AuthTemplate>

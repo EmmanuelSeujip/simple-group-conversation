@@ -2,8 +2,12 @@ import AuthTemplate from "../../component/template/auth/AuthTemplate";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faEye, faEyeSlash, faLock, faUser} from "@fortawesome/free-solid-svg-icons";
 import React, {useState} from "react";
+import {userStore} from "../../store/UserStore.ts";
+import {useNavigate} from "react-router-dom";
 
 const Login = () => {
+    const login=userStore((state)=>state.log)
+    const navigate = useNavigate();
     const [formData, setFormData] = useState({
         username: '',
         password: '',
@@ -16,12 +20,19 @@ const Login = () => {
         }));
     };
     const [showPassword, setShowPassword] = useState(false)
+    const  submit = async (e: React.SubmitEvent<HTMLFormElement>) => {
+        e.preventDefault();
+        const reponse = await login({username: formData.username,password:formData.password,route:"login"});
+        if (reponse) {
+            navigate("/");
+        }
+    }
     return (
         <AuthTemplate>
             <div className="flex flex-col items-center m-6 gap-2 w-full z-10">
                 <h2 className="text-2xl font-bold"> Connectez - vous </h2>
                 <p className="text-gray-500">Bon retour dans la conversation</p>
-                <form onSubmit={(e) => e.preventDefault()}
+                <form onSubmit={(e) => submit(e)}
                       className="flex flex-col w-full gap-5 mt-10">
                     <div className="flex flex-col gap-3">
                         <div className="flex gap-2 items-center
@@ -65,6 +76,9 @@ const Login = () => {
 
                     </div>
                 </form>
+                <div className="mt-4"> Vous n'avez pas de compte alors
+                    <a href="/sign" className="text-amber-500 underline ml-2">Inscrivez - vous</a>
+                </div>
             </div>
 
         </AuthTemplate>
